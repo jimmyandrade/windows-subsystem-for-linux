@@ -9,7 +9,13 @@
 6. O Windows começará a instalar o pacote do Modo de Desenvolvedor. Você verá a mensagem **Instalando o pacote do Modo de Desenvolvedor**;
 7. Aguarde até que a instalação seja finalizada.
 
-## Etapa 2 - Verifique se o Windows Subsystem for Linux está instalado
+## Etapa 2 - Instale o Windows Subsystem for Linux
+1. Utilize o menu **Iniciar** para localizar o **PowerShell**;
+2. Clique com o botão direito em **PowerShell** e selecione **Executar como administrador**;
+3. Execute o comando `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`.
+4. O computador reiniciará;
+
+### Alternativa - Instalando via Painel de Controle
 1. Vá ao Painel de Controle > Programas e Recursos > Recursos do Windows;
 2. Marque Windows Subsystem for Linux (Subsistema do Linux para Windows) se não estiver marcado;
 3. O computador reiniciará;
