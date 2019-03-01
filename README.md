@@ -1,10 +1,13 @@
 # Configurando o Subsistema do Windows para Linux
 
 ## Etapa 1 - Ative o modo de desenvolvedor
-1. Acesse as configurações do Windows e informe "desenvolvedor" na busca;
-2. Clique em "Modo de desenvolvedor" na seção "Usar recursos de desenvolvedor";
-3. Confirme a mensagem de segurança;
-4. O Windows começará a instalar o pacote do Modo de Desenvolvedor;
+1. Utilize o menu **Iniciar** para acessar as **Configurações** do Windows;
+2. Em **Localizar uma configuração**, informe "desenvolvedor" na busca;
+3. Selecione **Usar recursos de desenvolvedor**;
+4. Clique em **Modo de desenvolvedor** na seção **Usar recursos de desenvolvedor**;
+5. Se surgir alguma mensagem de segurança, confirme;
+6. O Windows começará a instalar o pacote do Modo de Desenvolvedor. Você verá a mensagem **Instalando o pacote do Modo de Desenvolvedor**;
+7. Aguarde até que a instalação seja finalizada.
 
 ## Etapa 2 - Verifique se o Windows Subsystem for Linux está instalado
 1. Vá ao Painel de Controle > Programas e Recursos > Recursos do Windows;
