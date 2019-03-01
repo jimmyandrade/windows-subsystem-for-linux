@@ -13,7 +13,8 @@
 1. Utilize o menu **Iniciar** para localizar o **PowerShell**;
 2. Clique com o botão direito em **PowerShell** e selecione **Executar como administrador**;
 3. Execute o comando `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`.
-4. O computador reiniciará;
+4. Você receberá a mensagem de confirmação "Você deseja reiniciar o computador para concluir esta operação agora?". Digite Y;
+5. O computador reiniciará;
 
 ### Alternativa - Instalando via Painel de Controle
 1. Vá ao Painel de Controle > Programas e Recursos > Recursos do Windows;
