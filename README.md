@@ -19,11 +19,16 @@
 ### Alternativa - Instalando via Painel de Controle
 1. Vá ao Painel de Controle > Programas e Recursos > Recursos do Windows;
 2. Marque Windows Subsystem for Linux (Subsistema do Linux para Windows) se não estiver marcado;
-3. O computador reiniciará;
+3. O computador reiniciará e exibirá a mensagem **Instalando recursos**;
 
 ## Etapa 3 - Instale o bash do Ubuntu
-1. Abra o prompt de comando e digite `bash`.
-   Provavelmente você verá a seguinte mensagem:
+1. Utilize o menu iniciar para abrir o **PowerShell**;
+2. Digite `bash`;
+3. As próximas instruções dependerão dos cenários abaixo:
+
+### Cenário 1
+
+Se você ver a seguinte mensagem:
 
 ```shell
 -- Beta feature --
@@ -32,6 +37,22 @@ e licenciado sob os termos disponíveis aqui:
 https://aka.ms/uowterms
 ```
 
-2. Confirme a instalação com "y". O Ubuntu começará a ser baixado da Windows Store;
-3. Se solicitado um locale padrão, mantenha en_US;
-4. Informe o nome de usuário UNIX e informe uma senha.
+1. Confirme a instalação com "y". O Ubuntu começará a ser baixado da Windows Store;
+2. Se solicitado um locale padrão, mantenha en_US;
+3. Informe o nome de usuário UNIX e informe uma senha.
+
+### Cenário 2
+
+Se você ver a seguinte mensagem:
+
+```shell
+O Subsistema do Windows para Linux não tem distribuições instaladas.
+As distribuições podem ser instaladas visitando a Microsoft Store:
+https://aka.ms/wslstore
+Pressione qualquer tecla para continuar...
+```
+
+1. Em seu navegador de preferência, acesse https://aka.ms/wslstore;
+2. Escolha um sistema operacional de sua preferência (**Ubuntu** é recomendado);
+3. Clique em **Obter** ou **Instalar** e aguarde alguns instantes.
+
